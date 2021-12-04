@@ -1,4 +1,3 @@
-#include <float.h>
 #include <limits.h>
 #include <stdio.h>
 
@@ -17,18 +16,17 @@ int main()
 
     printf("char Größe: %d Byte\n\n", sizeof(char));
 
-    printf("int Größe: %d Byte\n", sizeof(int));
-    printf("Wertebereich von %d bis %d\n\n", USHRT_MAX);
+    printf("int Größe: %d Byte\n\n", sizeof(int));
 
     printf("unsigned int Größe: %u Byte\n", sizeof(unsigned int));
     printf("Wertebereich von 0 bis %u\n\n", USHRT_MAX);
 
-    printf("float Größe: %d Byte\n", sizeof(float));
+    printf("float Größe: %d Byte\n\n", sizeof(float));
 
     printf("double Größe: %d Byte\n\n", sizeof(double));
 
     printf("long Größe: %d Byte\n", sizeof(long int));
-    printf("Wertebereich von %d bis %d\n\n", LONG_MIN, LONG_MAX);
+    printf("Wertebereich von %ld bis %ld\n\n", LONG_MIN, LONG_MAX);
     // https://stackoverflow.com/questions/18901080/why-is-the-sizeofint-sizeoflong
 
     printf("long long Größe: %d Byte\n", sizeof(long long));
