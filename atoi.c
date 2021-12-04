@@ -5,7 +5,7 @@
 int main(int argc, char *argv[]){
 
     if(argc < 2){
-        printf("Error!");
+        printf("Error! Not enough arguments!");
     }
 
     int umwandlung_von_argv = atoi(argv[1]);
