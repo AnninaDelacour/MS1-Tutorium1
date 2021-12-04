@@ -7,9 +7,5 @@
 int main() // () = nimmt Paramter entgegen
 {
     printf("Hello, World!\n"); // printf stammt aus <stdio.h>; damit kann man sich etwas in der Console ausgeben lassen
-    printf("int Größe: %u Byte\n", sizeof(unsigned));
-    printf("Wertebereich von 0 bis %u\n", USHRT_MAX);
-    // Source: https://en.wikipedia.org/wiki/C_data_types
-    //         https://www.tutorialspoint.com/c_standard_library/limits_h.htm
     return EXIT_SUCCESS;
 }

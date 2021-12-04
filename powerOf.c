@@ -22,12 +22,12 @@ int main(int argc, char *argv[]) {
 
     while(a > 1)
     {
-        if(a % 2 != 0)
+        if(a % 3 != 0)
         {
             isNotPowerOf = true;
             break;
         }
-        a = a / 2;
+        a = a / 3;
         counter++;
     }
 
@@ -35,8 +35,18 @@ int main(int argc, char *argv[]) {
         printf("%d\n", counter);
     }
     else{
-        printf("Keine Zweierpotenz!\n");
+        printf("Keine Dreierpotenz!\n");
     }
 
     return EXIT_SUCCESS;
 }
+
+/*
+ Dreierpotenzen:
+ 3^0 = 1
+ 3^1 = 3
+ 3^2 = 9
+ 3^3 = 27
+ 3^4 = 81
+ 3^5 = 243
+ */
